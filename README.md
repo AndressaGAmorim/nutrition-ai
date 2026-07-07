@@ -15,7 +15,7 @@ O NutritionAI foi desenvolvido para demonstrar a aplicação prática de técnic
 A aplicação recupera automaticamente os documentos mais relevantes da base de conhecimento e gera uma resposta fundamentada utilizando **RAG**, **FAISS**, **LangGraph** e **Llama 3 (Ollama)**.
 
 <p align="center">
-  <img src="Pergunta valida.png" alt="Pergunta válida" width="100%">
+  <img src="./assets/pergunta-valida.png" alt="Pergunta válida" width="100%">
 </p>
 
 ---
@@ -25,7 +25,8 @@ A aplicação recupera automaticamente os documentos mais relevantes da base de 
 Quando a pergunta não pertence ao domínio da nutrição, o sistema identifica que não há contexto relevante e evita gerar respostas utilizando conhecimento externo.
 
 <p align="center">
-  <img src="Pergunta negada.png" alt="Pergunta negada" width="70%">
+  <img src="./assets/pergunta-negada.png" alt="Pergunta negada" width="70%">
+</p>
 
 # 🚀 Tecnologias utilizadas
 
