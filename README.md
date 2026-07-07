@@ -8,30 +8,24 @@ O NutritionAI foi desenvolvido para demonstrar a aplicação prática de técnic
 
 ---
 
-# 💬 Exemplo de utilização
+# 📸 Demonstração
 
-### Pergunta
+### ✅ Pergunta dentro do domínio da nutrição
 
-> Quero uma dica de nutrição para ganhar mais corpo.
+A aplicação recupera automaticamente os documentos mais relevantes da base de conhecimento e gera uma resposta fundamentada utilizando **RAG**, **FAISS**, **LangGraph** e **Llama 3 (Ollama)**.
 
-### Resposta
-
-> **Olá!**
->
-> Em primeiro lugar, é importante ressaltar que a recomendação de dietas específicas para ganho de massa muscular não é o foco principal deste guia. No entanto, posso fornecer algumas dicas gerais sobre alimentação saudável e nutrição que podem ajudar a apoiar um estilo de vida mais ativo e saudável.
->
-> Para ganhar massa muscular, é fundamental uma combinação adequada de nutrientes, incluindo proteínas, carboidratos e gorduras. Aqui estão algumas dicas:
->
-> - A base da alimentação deve ser constituída por alimentos **in natura** ou minimamente processados, como frutas, verduras, legumes, cereais integrais, peixes, aves e outros produtos animais.
-> - Inclua fontes de proteína em sua dieta, como frutos do mar, ovos, queijo, laticínios e alimentos proteicos industrializados.
-> - Carboidratos complexos, como arroz integral, feijão, pães integrais e batata-doce, são importantes fontes de energia.
-> - Gorduras saudáveis, como azeite, frutas secas e nozes, contribuem para uma alimentação equilibrada.
->
-> Além disso, é importante lembrar que restrições alimentares exigem atenção especial na composição da dieta. Caso possua alguma restrição ou objetivo específico, o ideal é buscar orientação de um nutricionista para um plano alimentar individualizado.
->
-> **Espero que essas dicas tenham ajudado!**
+<p align="center">
+  <img src="Pergunta valida.png" alt="Pergunta válida" width="100%">
+</p>
 
 ---
+
+### 🚫 Pergunta fora do domínio
+
+Quando a pergunta não pertence ao domínio da nutrição, o sistema identifica que não há contexto relevante e evita gerar respostas utilizando conhecimento externo.
+
+<p align="center">
+  <img src="Pergunta negada.png" alt="Pergunta negada" width="70%">
 
 # 🚀 Tecnologias utilizadas
 
